@@ -32,10 +32,14 @@ The [variance][variance] for a [discrete uniform][discrete-uniform-distribution]
 
 <!-- <equation class="equation" label="eq:discrete_uniform_variance" align="center" raw="\operatorname{Var}\left( X \right) = \frac{\left( b - a + 1 \right)^2 - 1}{12}" alt="Variance for a discrete uniform distribution."> -->
 
-<div class="equation" align="center" data-raw-text="\operatorname{Var}\left( X \right) = \frac{\left( b - a + 1 \right)^2 - 1}{12}" data-equation="eq:discrete_uniform_variance">
+```math
+\operatorname{Var}\left( X \right) = \frac{\left( b - a + 1 \right)^2 - 1}{12}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="\operatorname{Var}\left( X \right) = \frac{\left( b - a + 1 \right)^2 - 1}{12}" data-equation="eq:discrete_uniform_variance">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@591cf9d5c3a0cd3c1ceec961e5c49d73a68374cb/lib/node_modules/@stdlib/stats/base/dists/discrete-uniform/variance/docs/img/equation_discrete_uniform_variance.svg" alt="Variance for a discrete uniform distribution.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -192,11 +196,6 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
-## License
-
-See [LICENSE][stdlib-license].
-
-
 ## Copyright
 
 Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
@@ -226,7 +225,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -239,8 +238,6 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [umd-url]: https://github.com/stdlib-js/stats-base-dists-discrete-uniform-variance/tree/umd
 [esm-url]: https://github.com/stdlib-js/stats-base-dists-discrete-uniform-variance/tree/esm
 [branches-url]: https://github.com/stdlib-js/stats-base-dists-discrete-uniform-variance/blob/main/branches.md
-
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-dists-discrete-uniform-variance/main/LICENSE
 
 [discrete-uniform-distribution]: https://en.wikipedia.org/wiki/Discrete_uniform_distribution
 

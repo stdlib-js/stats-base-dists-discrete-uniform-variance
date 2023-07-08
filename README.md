@@ -33,7 +33,7 @@ The [variance][variance] for a [discrete uniform][discrete-uniform-distribution]
 <!-- <equation class="equation" label="eq:discrete_uniform_variance" align="center" raw="\operatorname{Var}\left( X \right) = \frac{\left( b - a + 1 \right)^2 - 1}{12}" alt="Variance for a discrete uniform distribution."> -->
 
 ```math
-\operatorname{Var}\left( X \right) = \frac{\left( b - a + 1 \right)^2 - 1}{12}
+\mathop{\mathrm{Var}}\left( X \right) = \frac{\left( b - a + 1 \right)^2 - 1}{12}
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\operatorname{Var}\left( X \right) = \frac{\left( b - a + 1 \right)^2 - 1}{12}" data-equation="eq:discrete_uniform_variance">
@@ -196,11 +196,6 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
-## License
-
-See [LICENSE][stdlib-license].
-
-
 ## Copyright
 
 Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
@@ -243,8 +238,6 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [umd-url]: https://github.com/stdlib-js/stats-base-dists-discrete-uniform-variance/tree/umd
 [esm-url]: https://github.com/stdlib-js/stats-base-dists-discrete-uniform-variance/tree/esm
 [branches-url]: https://github.com/stdlib-js/stats-base-dists-discrete-uniform-variance/blob/main/branches.md
-
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-dists-discrete-uniform-variance/main/LICENSE
 
 [discrete-uniform-distribution]: https://en.wikipedia.org/wiki/Discrete_uniform_distribution
 

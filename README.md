@@ -69,6 +69,11 @@ where `a` is the minimum support and `b` the maximum support of the distribution
 ## Usage
 
 ```javascript
+import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-variance@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-discrete-uniform-variance/tags). For example,
+
+```javascript
 import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-variance@v0.1.2-esm/index.mjs';
 ```
 
@@ -140,7 +145,7 @@ v = variance( -1, -2 );
 <script type="module">
 
 import randint from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
-import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-variance@v0.1.2-esm/index.mjs';
+import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-variance@esm/index.mjs';
 
 var randa = randint.factory( 0, 10 );
 var randb = randint.factory();

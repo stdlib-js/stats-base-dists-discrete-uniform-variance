@@ -2,6 +2,63 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2025-01-11)
+
+<section class="features">
+
+### Features
+
+-   [`7f819f5`](https://github.com/stdlib-js/stdlib/commit/7f819f5c08ff51210dc1e5188c12c32481e6acd4) - add C implementation for `stats/base/dists/discrete-uniform/variance` [(#4567)](https://github.com/stdlib-js/stdlib/pull/4567)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3562](https://github.com/stdlib-js/stdlib/issues/3562)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`7f819f5`](https://github.com/stdlib-js/stdlib/commit/7f819f5c08ff51210dc1e5188c12c32481e6acd4) - **feat:** add C implementation for `stats/base/dists/discrete-uniform/variance` [(#4567)](https://github.com/stdlib-js/stdlib/pull/4567) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Philipp Burckhardt
+-   Prashant Kumar Yadav
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.1.2">
 
 ## 0.1.2 (2024-07-28)

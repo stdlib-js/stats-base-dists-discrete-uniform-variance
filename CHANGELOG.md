@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-11)
+## Unreleased (2025-02-09)
 
 <section class="features">
 
@@ -34,6 +34,8 @@ This release closes the following issue:
 
 <details>
 
+-   [`d53a818`](https://github.com/stdlib-js/stdlib/commit/d53a8184c029c3df7c45a7a1a2da9ff90b4f883e) - **docs:** fix errors in the structure of READMEs in `stats/base/*` [(#5138)](https://github.com/stdlib-js/stdlib/pull/5138) _(by Aayush Khanna)_
+-   [`13c0b92`](https://github.com/stdlib-js/stdlib/commit/13c0b92efadf3a6d4c83322c32ebc4071950b403) - **bench:** refactor random number generation in `stats/base/dists/discrete-uniform` [(#4887)](https://github.com/stdlib-js/stdlib/pull/4887) _(by Karan Anand)_
 -   [`7f819f5`](https://github.com/stdlib-js/stdlib/commit/7f819f5c08ff51210dc1e5188c12c32481e6acd4) - **feat:** add C implementation for `stats/base/dists/discrete-uniform/variance` [(#4567)](https://github.com/stdlib-js/stdlib/pull/4567) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
 
 </details>
@@ -46,8 +48,10 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Aayush Khanna
+-   Karan Anand
 -   Philipp Burckhardt
 -   Prashant Kumar Yadav
 

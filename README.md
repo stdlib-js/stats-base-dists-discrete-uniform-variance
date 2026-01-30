@@ -69,7 +69,7 @@ where `a` is the minimum support and `b` the maximum support of the distribution
 ## Usage
 
 ```javascript
-import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-variance@deno/mod.js';
+import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-variance@v0.2.0-deno/mod.js';
 ```
 
 #### variance( a, b )
@@ -135,7 +135,7 @@ v = variance( -1, -2 );
 
 ```javascript
 import randint from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
-import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-variance@deno/mod.js';
+import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-variance@v0.2.0-deno/mod.js';
 
 var randa = randint.factory( 0, 10 );
 var randb = randint.factory();

@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,8 +20,7 @@
 
 // MODULES //
 
-var isInteger = require( '@stdlib/math-base-assert-is-integer' );
-var pow = require( '@stdlib/math-base-special-pow' );
+var addon = require( './../src/addon.node' );
 
 
 // MAIN //
@@ -29,6 +28,7 @@ var pow = require( '@stdlib/math-base-special-pow' );
 /**
 * Returns the variance of a discrete uniform distribution.
 *
+* @private
 * @param {integer} a - minimum support
 * @param {integer} b - maximum support
 * @returns {PositiveNumber} variance
@@ -44,32 +44,9 @@ var pow = require( '@stdlib/math-base-special-pow' );
 * @example
 * var v = variance( -4, 4 );
 * // returns ~6.667
-*
-* @example
-* var v = variance( 1, -0.1 );
-* // returns NaN
-*
-* @example
-* var v = variance( 0.5, 1 );
-* // returns NaN
-*
-* @example
-* var v = variance( 2, NaN );
-* // returns NaN
-*
-* @example
-* var v = variance( NaN, 2 );
-* // returns NaN
 */
 function variance( a, b ) {
-	if (
-		!isInteger( a ) ||
-		!isInteger( b ) ||
-		a > b
-	) {
-		return NaN;
-	}
-	return ( pow( b-a+1, 2.0 ) - 1.0 ) / 12.0;
+	return addon( a, b );
 }
 
 

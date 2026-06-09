@@ -1,30 +1,5 @@
+"use strict";var n=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var u=n(function(v,t){
+var i=require('@stdlib/math-base-assert-is-integer/dist'),s=require('@stdlib/math-base-special-pow/dist');function a(e,r){return!i(e)||!i(r)||e>r?NaN:(s(r-e+1,2)-1)/12}t.exports=a
+});var c=u();module.exports=c;
 /** @license Apache-2.0 */
-
-'use strict';
-
-/**
-* Discrete uniform distribution variance.
-*
-* @module @stdlib/stats-base-dists-discrete-uniform-variance
-*
-* @example
-* var variance = require( '@stdlib/stats-base-dists-discrete-uniform-variance' );
-*
-* var v = variance( 0, 1 );
-* // returns ~0.25
-*
-* v = variance( 4, 12 );
-* // returns ~6.667
-*
-* v = variance( 2, 8 );
-* // returns 4.0
-*/
-
-// MODULES //
-
-var main = require( './main.js' );
-
-
-// EXPORTS //
-
-module.exports = main;
+//# sourceMappingURL=index.js.map

@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-26)
+## Unreleased (2026-09-01)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`3fd51c5`](https://github.com/stdlib-js/stdlib/commit/3fd51c57e1544bf6b40539481a6c907a8352e618) - **test:** migrate `stats/base/dists/discrete-uniform/variance` to ULP-based assertions [(#14862)](https://github.com/stdlib-js/stdlib/pull/14862) _(by Athan Reines)_
 -   [`fd2d15a`](https://github.com/stdlib-js/stdlib/commit/fd2d15ac502fd4ecbb5e5a92b88f223a035c6917) - **chore:** update keywords [(#13496)](https://github.com/stdlib-js/stdlib/pull/13496) _(by Philipp Burckhardt)_
 -   [`e1dbf10`](https://github.com/stdlib-js/stdlib/commit/e1dbf101e15b1caf71e3dc24884869a23bd5b47e) - **docs:** fix notes concerning edge case behavior [(#12711)](https://github.com/stdlib-js/stdlib/pull/12711) _(by Philipp Burckhardt)_
 -   [`f1813da`](https://github.com/stdlib-js/stdlib/commit/f1813dabd21da054ff60d0b76c758c5c28ea0dfc) - **chore:** propagate recent fixes to sibling packages [(#11723)](https://github.com/stdlib-js/stdlib/pull/11723) _(by Philipp Burckhardt)_
